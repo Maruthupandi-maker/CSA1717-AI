@@ -1,0 +1,8 @@
+% Planets database: planet(Name, DistanceFromSun_AU, OrbitalPeriod_Days)
+planet(mercury, 0.39, 88).
+planet(venus, 0.72, 225).
+planet(earth, 1.00, 365).
+planet(mars, 1.52, 687).
+planet(jupiter, 5.20, 4333).
+planet(saturn, 9.58, 10759).
+% Query: ?- planet(Name, Distance, Period).
